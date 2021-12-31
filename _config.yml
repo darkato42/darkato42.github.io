@@ -1,1 +1,40 @@
-theme: jekyll-theme-cayman
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: yulin-github-pages
+google_analytics: UA-108154124-1
+title: Yulin's Personal Blog
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Yulin's Personal Blog
+
+description: I'm blogging now :)
+author:
+  name: Yulin Wu
+  email: yulin.wu2@gmail.com
+  github: JimmyWuMadchester
+  #twitter: dbtek
+  #pinterest: asd123
+  linkedin: yulin-wu
+  bio: 可一不可再
+  email_md5: 173947429406fd9c871586e81ec4ab83
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
