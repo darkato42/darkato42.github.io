@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: yulin-github-pages
 google_analytics: UA-108154124-1
-title: Yulin's Personal Blog
+title: Darkato Spaceship
 
 defaults:
   -
@@ -22,7 +22,7 @@ author:
   email: darkato@icloud.com
   github: darkato42
   linkedin: yulin-wu
-  bio: A curious full stack engineer
+  bio: Flying to the dark side of the moon
   email_md5: 173947429406fd9c871586e81ec4ab83
 
 rss_path: feed.xml
