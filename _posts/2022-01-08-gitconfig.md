@@ -2,7 +2,7 @@
 layout: post
 title: My .gitconfig
 categories: [Coding]
-tags: [config][git][productivity]
+tags: [git, config, productivity]
 comments: true
 excerpt_separator: <!--more-->
 ---
