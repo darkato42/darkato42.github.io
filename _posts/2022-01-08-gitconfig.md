@@ -1,8 +1,20 @@
-# Git
+---
+layout: post
+title: My .gitconfig
+categories: [Leisure]
+tags: [stargazing]
+comments: true
+excerpt_separator: <!--more-->
+---
+
+.gitconfig settings for subcommand aliases, git lfs, line ending and ignoring files.
+
+<!--more-->
+
+
+# Git Config
 
 # Ignore files for all repos
-
----
 
 1. Create a `~/.gitignore_global` file with these contents:
     
@@ -14,8 +26,6 @@
 2. run `git config --global core.excludesfile ~/.gitignore_global`
 
 # Line ending
-
----
 
 On a **Windows** machine, set `core.autocrlf` to `true` – this converts LF endings into
 CRLF when you check out code:
@@ -31,8 +41,6 @@ git config --global core.autocrlf input
 ```
 
 # Git LFS
-
----
 
 ```bash
 git lfs install
@@ -65,10 +73,10 @@ ref:
     	email = darkato@icloud.com
     [alias]
     	st = status
-      co = checkout
-      br = branch
-      unstage = reset HEAD --
-      last = log -1 HEAD
+    	co = checkout
+    	br = branch
+    	unstage = reset HEAD --
+    	last = log -1 HEAD
     	# adds all modified files to staging and allows you to type a commit message, e.g. git ac "updated README"
     	ac = !git add -A && git commit -m
     ```
@@ -78,4 +86,27 @@ To run an external command, rather than a Git subcommand. In that case, you star
 
 ```bash
 $ git config --global alias.visual "!gitk"
+```
+
+# My MacOS .gitconfig
+
+```bash
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Yulin Wu
+	email = darkato@icloud.com
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	# adds all modified files to staging and allows you to type a commit message, e.g. git ac "updated README"
+	ac = !git add -A && git commit -m
+[core]
+	autocrlf = input
 ```
