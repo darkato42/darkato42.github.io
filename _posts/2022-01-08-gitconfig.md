@@ -1,8 +1,8 @@
 ---
 layout: post
 title: My .gitconfig
-categories: [Leisure]
-tags: [stargazing]
+categories: [Coding]
+tags: [config][git][productivity]
 comments: true
 excerpt_separator: <!--more-->
 ---
