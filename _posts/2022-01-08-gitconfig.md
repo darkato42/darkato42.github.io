@@ -7,14 +7,11 @@ comments: true
 excerpt_separator: <!--more-->
 ---
 
-.gitconfig settings for subcommand aliases, git lfs, line ending and ignoring files.
+my .gitconfig settings for subcommand aliases, git lfs, line ending and ignoring files.
 
 <!--more-->
 
-
-# Git Config
-
-# Ignore files for all repos
+### Ignore files for all repos
 
 1. Create a `~/.gitignore_global` file with these contents:
     
@@ -25,7 +22,7 @@ excerpt_separator: <!--more-->
     
 2. run `git config --global core.excludesfile ~/.gitignore_global`
 
-# Line ending
+### Line ending
 
 On a **Windows** machine, set `core.autocrlf` to `true` – this converts LF endings into
 CRLF when you check out code:
@@ -40,7 +37,7 @@ On a **Linux** or **Mac** system that uses LF line endings, then you don’t wan
 git config --global core.autocrlf input
 ```
 
-# Git LFS
+### Git LFS
 
 ```bash
 git lfs install
@@ -57,7 +54,7 @@ ref:
 
 [HTTP/2 vs. HTTP/1.1: How do they affect web performance? | Cloudflare](https://www.cloudflare.com/en-gb/learning/performance/http2-vs-http1.1/)
 
-# Git Aliases
+### Git Aliases
 
 - Run `git config --global alias.co checkout` to add an alias
 - Or edit the `~.gitconfig` file directly
@@ -88,7 +85,7 @@ To run an external command, rather than a Git subcommand. In that case, you star
 $ git config --global alias.visual "!gitk"
 ```
 
-# My MacOS .gitconfig
+### My MacOS .gitconfig
 
 ```bash
 [filter "lfs"]
