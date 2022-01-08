@@ -52,7 +52,7 @@ There are some drawbacks on performance if `HTTP/1.1` is applied to global confi
 
 ref:
 
-[HTTP/2 vs. HTTP/1.1: How do they affect web performance? | Cloudflare](https://www.cloudflare.com/en-gb/learning/performance/http2-vs-http1.1/)
+[HTTP/2 vs. HTTP/1.1: How do they affect web performance?](https://www.cloudflare.com/en-gb/learning/performance/http2-vs-http1.1/)
 
 ### Git Aliases
 
