@@ -18,3 +18,13 @@ A list of cheatsheets.
 ### Math
 
 * [Algebra](/assets/cheatsheets/Algebra_Cheat_Sheet.pdf)
+
+### Notion
+
+* [Keyboard Shortcuts](https://www.notion.so/help/keyboard-shortcuts)
+* [KaTex Supported Functions](https://katex.org/docs/supported.html)
+* [KaTex Support Table](https://katex.org/docs/support_table.html)
+
+### Coding Interview
+
+* [Big-O Complexity](https://www.bigocheatsheet.com/)
