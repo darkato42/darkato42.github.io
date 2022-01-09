@@ -56,7 +56,7 @@ ref:
 
 ### Git Aliases
 
-- Run `git config --global alias.co checkout` to add an alias
+- Run e.g. `git config --global alias.co checkout` to add `co` as an alias for `checkout` 
 - Or edit the `~.gitconfig` file directly
     
     ```
