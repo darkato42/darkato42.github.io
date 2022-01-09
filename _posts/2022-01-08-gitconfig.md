@@ -7,7 +7,7 @@ comments: true
 excerpt_separator: <!--more-->
 ---
 
-my .gitconfig settings for subcommand aliases, git lfs, line ending and ignoring files.
+my .gitconfig settings for subcommand aliases, git lfs, line ending and ignoring files. To keep it short, use cases aren't included in this post.
 
 <!--more-->
 
