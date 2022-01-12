@@ -15,10 +15,10 @@ my .gitconfig settings for subcommand aliases, git lfs, line ending and ignoring
 
 1. Create a `~/.gitignore_global` file with these contents:
     
-    ```
-    *~
-    .DS_Store
-    ```
+```
+*~
+.DS_Store
+```
     
 2. run `git config --global core.excludesfile ~/.gitignore_global`
 
